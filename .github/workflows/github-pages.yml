@@ -44,7 +44,7 @@ jobs:
         run: npm run build:css
 
       - name: Check for Broken Links
-        uses: lycheeverse/lychee-action@v2.0.2
+        uses: lycheeverse/lychee-action@v2.6.1
         with:
           args: >-
             --no-progress
